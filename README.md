@@ -5,7 +5,7 @@ This repository provides an example of how to update an Azure API Management API
 
 # **Diagram**
 
-This repository a set of Terraform files that creates the following components.
+This repository contains a set of Terraform files that creates the following components.
 
 - An Azure Container Registry to host the application's images.
 - An Azure Container Apps Environment to host the applications.

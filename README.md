@@ -5,6 +5,8 @@ This repository provides an example of how to update an Azure API Management API
 
 # **Diagram**
 
+> In this demo we utilize Azure Container Apps to host our APIs, but it could be any service (Azure App Service, ACI, Azure VM, or even a service from another Cloud). The hosting platform is not relevant; the important part is to expose the app in Azure API Management using the API's remote Swagger endpoint.
+
 This repository contains a set of Terraform files that creates the following components.
 
 - An Azure Container Registry to host the application's images.
@@ -15,6 +17,7 @@ This repository contains a set of Terraform files that creates the following com
 
 
 ![diagram](https://raw.githubusercontent.com/karlospn/how-to-update-an-azure-api-mgmt-api-that-uses-a-remote-openapi-using-terraform/main/docs/scenario-diagram.png)
+
 
 
 # How we can update an Azure API Manamgent API that is using a remote OpenApi definition using Terraform?
